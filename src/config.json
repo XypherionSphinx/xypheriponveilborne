@@ -1,0 +1,22 @@
+{
+  "qinglong": {
+    "color": "#3b82f6",
+    "title": "Qinglong",
+    "subTitle": "Azure Dragon — Veil of Breath and Form"
+  },
+  "baihu": {
+    "color": "#ffffff",
+    "title": "Baihu",
+    "subTitle": "White Tiger — Veil of Claw and Rage"
+  },
+  "xuanwu": {
+    "color": "#6b21a8",
+    "title": "Xuanwu",
+    "subTitle": "Black Tortoise — Veil of Shell and Depth"
+  },
+  "zhuque": {
+    "color": "#ef4444",
+    "title": "Zhuque",
+    "subTitle": "Vermilion Bird — Veil of Fire and Voice"
+  }
+}
