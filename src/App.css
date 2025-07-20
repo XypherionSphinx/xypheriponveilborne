@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mouse+Memoirs&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-color: #000;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 3rem;
+
+  .text-div {
+    text-align: center;
+    max-width: 56rem;
+
+    .title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #dc2626;
+      letter-spacing: 0.05em;
+
+      @media (min-width: 768px) {
+        font-size: 3.75rem;
+      }
+    }
+
+    .sub-title {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #f87171;
+      font-style: italic;
+    }
+
+    .para {
+      margin-top: 1rem;
+      font-size: 1.125rem;
+      color: #d1d5db;
+
+      @media (min-width: 768px) {
+        font-size: 1.25rem;
+      }
+    }
+
+    .quote {
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+  }
+
+  .symbols-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 48rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
